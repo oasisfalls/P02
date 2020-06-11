@@ -1,0 +1,48 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 30px;
+	background-color: white;
+}
+
+.nav-container {
+        position: sticky; 
+        top:0;
+
+}
+
+li, a, button {
+	text-decoration: none;
+	color: #313639; /* off black */
+}
+
+.logo {
+	font-family: "Josefin Sans", sans-serif;
+	color: #313639; /* off black */
+}
+
+.nav_link {
+	list-style: none;
+
+}
+
+.nav_link li {
+	display: inline-block;
+	padding: 0px 20px;
+
+}
+
+.nav_link li a {
+	transition: 0.3s ease;
+}
+
+.nav_link li a:hover {
+	color: #A86BE3;
+}
+
+.nav_link li a:focus {
+	color: #A86BE3;
+	padding: 10px 20px;
+	border: 2px solid white;
+}
