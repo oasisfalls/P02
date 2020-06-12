@@ -36,13 +36,18 @@ h1, h2, h3 {
 	color:#313639; /* off black */ ;
 }
 
+h3 {
+	border-bottom: 1px solid #313639;
+}
+
+#heading3 {
+	border-bottom: 0px;
+}
+
 #heading1, #heading2, #heading3{
 	margin-left: 0;
 }
 
-#heading3 {
-	border-bottom: none;
-}
 
 code {
 	background-color: #e5e5e5;
