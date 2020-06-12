@@ -195,3 +195,26 @@ code {
 	color: white;
 
 }
+
+.dark {
+background-color: #252525;
+height: 300px;
+}
+
+.light {
+background-color: #9cedeb;
+height: 300px;
+}
+
+.grid-row {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.grid-column {
+display: flex;
+flex-direction: column;
+flex-basis: 100%;
+flex: 1;
+}
