@@ -40,6 +40,10 @@ h1, h2, h3 {
 	margin-left: 0;
 }
 
+#heading3 {
+	border-bottom: none;
+}
+
 code {
 	background-color: #e5e5e5;
 	padding: 10px 30px;
