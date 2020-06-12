@@ -9,12 +9,6 @@
 .nav-container {
         position: sticky; 
         top:0;
-
-}
-
-li, a, button {
-	text-decoration: none;
-	color: #313639; /* off black */
 }
 
 .logo {
@@ -34,6 +28,8 @@ li, a, button {
 }
 
 .nav_link li a {
+	text-decoration: none;
+	color: #313639; /* off black */
 	transition: 0.3s ease;
 }
 
