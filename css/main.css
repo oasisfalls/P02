@@ -2,7 +2,7 @@ html {
 	font-family: "Open Sans", sans-serif;
 }
 
-.row {
+.row{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -10,6 +10,10 @@ html {
   justify-content: space-between;
   margin: 0px 50px;
 
+}
+
+.img-category{
+	margin: auto;
 }
 
 .column {
@@ -179,6 +183,11 @@ code {
 
 .prod-example {
 	margin-left: 0;
+}
+
+.page-title {
+	margin-left: 0;
+	text-align: center;
 }
 
 .quantity {
