@@ -12,8 +12,8 @@
 	<body>
 		<div class="nav-container">
 			<div class="nav">
-				<h1 class="logo">LUMIN</h1>
-				<h2>- STYLEGUIDE -</h2>
+				<h1 id="logo">LUMIN</h1>
+				<h2>STYLEGUIDE</h2>
 				<nav>
 					<ul class="nav_link">
 						<li><a href="index.html">Styleguide</a></li>
@@ -23,8 +23,6 @@
 				</nav>
 			</div>
 		</div>
-
-		<div class="container"> <!-- container div -->
 			<h1>Basic Interactive Elements</h1>
 				<div class="row">
 					<div class="column">
@@ -37,11 +35,42 @@
 
 					<div class="column">
 						<h2>A Call To Action Button</h2>
-					</div>
+						<a href="#" id="continue-button">Continue</a>
+						<code>
+							&lt;a href="#" id="continue-button"&gt;Continue&lt;/a&gt;
+						</code>
 
+					</div>
 				</div><!-- end of row div -->
 
+				<div class="row">
+					<div class="column">
+						<h2>Submit and Reset Buttons</h2>
+						<a href="#" id="submit-button">Submit</a>
+						<a href="#" id="reset-button">Reset</a>
+					</div>
+					<div class="column">
+						<h2>Text Input Field and Label</h2>
+						<label for="fname">First name: </label> <input type="text" id="fname" name="fname">
+					</div>
+				</div>
 
+				<div class="row">
+					<div class="column">
+						<h2>Colour Swatches</h2>
+						<div class="row">
+							<div class="offBlack-swatch">
+								<p id="offBlack-swatch">Off Black - #e5e5e5</p>
+							</div>
+							<div class="white-swatch">
+								<p id="white-swatch">White - #FFFFFF</p>
+							</div>
+							<div class="blue-swatch">
+								<p id="blue-swatch">Sea Breeze Blue - #d0fefc</p>
+							</div>
+							</div>
+						</div>
+					</div>
 				</div>
 		</div> <!-- end of container div-->
 
