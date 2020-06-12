@@ -9,11 +9,12 @@ html {
   width: auto;
   justify-content: space-between;
   margin: 0px 50px;
+
 }
 
 .column {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
   flex-basis: 100%;
   padding: 20px 20px;
@@ -122,4 +123,75 @@ code {
 
 #reset-button:hover {
 	background-color: rgba(156,237,235,.4);
+}
+
+#nav-mod-logo {
+	font-family: "Josefin Sans", sans-serif;
+	color: #f8f8f8;
+	padding-left: 30px;
+}
+
+.nav_link_icons {
+	padding: 0px 0px;
+	text-decoration: none;
+	list-style: none;
+}
+
+.nav_link_icons li{
+	display: inline-block;
+	padding-right: 50px;
+}
+
+.nav-mod-h3 {
+	margin: 0px 50px;
+}
+
+#nav-example {
+	background-color:#313639 ;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.nav_link_example {
+	list-style: none;
+	align-items: center;
+}
+
+.nav_link_example li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_link_example li a {
+	text-decoration: none;
+	color: #f8f8f8; /* off black */
+	transition: 0.3s ease;
+}
+
+.nav_link_example li a:hover {
+	color: #A86BE3;
+}
+
+.product-info {
+ list-style: none;
+
+}
+
+.prod-example {
+	margin-left: 0;
+}
+
+.quantity {
+	text-decoration: none;
+	padding: 5px 10px;
+	border: 2px solid grey;
+	border-radius: 25px;
+	font-weight: bold;
+	transition: 0.3s ease;
+}
+
+.quantity:hover {
+	background-color: grey;
+	color: white;
+
 }
