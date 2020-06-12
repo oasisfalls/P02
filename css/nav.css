@@ -40,9 +40,3 @@ li, a, button {
 .nav_link li a:hover {
 	color: #A86BE3;
 }
-
-.nav_link li a:focus {
-	color: #A86BE3;
-	padding: 10px 20px;
-	border: 2px solid white;
-}
