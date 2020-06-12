@@ -9,7 +9,6 @@ html {
   width: auto;
   justify-content: space-between;
   margin: 0px 50px;
-
 }
 
 .img-category{
@@ -202,7 +201,6 @@ code {
 .quantity:hover {
 	background-color: grey;
 	color: white;
-
 }
 
 .dark {
