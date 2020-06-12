@@ -11,9 +11,10 @@
         top:0;
 }
 
-.logo {
+#logo {
 	font-family: "Josefin Sans", sans-serif;
 	color: #313639; /* off black */
+	margin-left: 0p;
 }
 
 .nav_link {
