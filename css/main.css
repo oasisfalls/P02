@@ -36,6 +36,10 @@ h1, h2, h3 {
 	color:#313639; /* off black */ ;
 }
 
+#heading1, #heading2, #heading3{
+	margin-left: 0;
+}
+
 code {
 	background-color: #e5e5e5;
 	padding: 10px 30px;
