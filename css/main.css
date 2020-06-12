@@ -2,13 +2,6 @@ html {
 	font-family: "Open Sans", sans-serif;
 }
 
-.container {
-	background-color: white;
-	margin: 0px 50px;
-	height: 2000px;
-	padding: 20px 50px;
-}
-
 .row {
   display: flex;
   flex-direction: row;
@@ -16,7 +9,7 @@ html {
   width: auto;
   background-color: #CBE8F0;
   justify-content: space-between;
-  margin: 0px 20px;
+  margin: 0px 50px;
 }
 
 .column {
